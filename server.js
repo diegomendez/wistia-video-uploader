@@ -4,7 +4,7 @@ var app = express();
 app.use(express.static("App"));  
   
 app.get('/', function (req, res) {  
-	app.use("/", express.static(__dirname));
+	res.sendFile('./app/index.html');
 });  
   
 app.listen(process.env.PORT || 8080, function() {
