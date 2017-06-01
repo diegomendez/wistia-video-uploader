@@ -1,0 +1,142 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,200');
+
+body{
+    background-color: #ffffff;   
+}
+
+* {
+    font-family: 'Raleway', sans-serif;    
+}
+
+div h3 span{
+     color : #FFF;
+     font-size:14px;
+}
+
+div span {
+     font-weight: 200;
+}
+
+h1{
+     font-weight: 200;
+}
+
+.box{
+    width:35%;
+    position:absolute;
+    top:10%;
+    left:32.5%;
+    
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+}
+
+.cover {
+    background-image: url(./img/front.jpg);  
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .box{
+        width:90%;
+        height:80%;
+        position:absolute;
+        top:10%;
+        left:5%;
+        
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+        -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+        box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    }
+}
+
+
+.files video {
+    max-width: 375px !important;
+}
+
+.upload-control{
+    padding:10px;    
+}
+
+.label {
+    color: #EB4F26;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-control{
+    color: #000000 !important;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 25px;
+    padding-left: 10px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn-upload-new {
+    position: relative;
+    left: 30%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fileinput-button {
+    left: 35% !important;
+    margin-bottom: 10px;
+}
+
+.progress {
+    margin-top: 20px;
+}
+
+.form-control:focus{
+    border-radius: 0px;
+    border-bottom: 1px solid #FC563B;
+    margin-bottom: 10px;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.btn-upload{
+    background-color: #66ccff;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.btn-upload:hover {
+    background-color: #0099ff;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+
+.preview {
+    margin-left: 5%;
+}
+
+.player {
+    margin-top: 10px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+max-width: 375px;
+    margin-left: 7%;
+}
